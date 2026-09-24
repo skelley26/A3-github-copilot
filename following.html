@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Following | Posts</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark sidebar-nav">
+    <div class="container-fluid sidebar-inner">
+      <a class="navbar-brand brand-mark" href="index.html"><span class="brand-dot"></span>Posts</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation"
+        aria-controls="mainNavigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNavigation">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="account.html">Account</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="following.html">Following</a></li>
+          <li class="nav-item"><a class="nav-link" href="for-you.html">For you</a></li>
+          <li class="nav-item"><a class="nav-link" href="#logout">Log Out</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page-content">
+    <section aria-labelledby="following-heading">
+      <p class="eyebrow mb-2">Your network</p>
+      <h1 id="following-heading" class="display-4 mb-3">Following</h1>
+      <div class="posts-placeholder text-center">
+        <h2 class="h4">Your following list is empty</h2>
+        <p class="mb-0">People you follow will appear here.</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
